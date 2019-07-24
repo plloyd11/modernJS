@@ -1,0 +1,57 @@
+@media (max-width: 768px) {
+    .display-5, .display-3 {
+        font-size: 1.5rem;
+    }
+}
+
+body, html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header-color {
+    color: #769FB6;
+}
+
+.display-5 {
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.form-check {
+    display: flex;
+    align-items: center;
+}
+
+label {
+    margin-top: 2.5px;
+    margin-left: 7.5px;
+    color: #fff;
+}
+
+.error {
+    padding: 10px;
+    color: crimson;
+    border: 1px dotted crimson;
+}
+
+.success {
+    padding: 10px;
+    color: limegreen;
+    border: 1px dotted limegreen;
+}
+
+li {
+    list-style-type: none;
+    max-width: 200px;
+    padding: 8px;
+    margin: 8px auto;
+    background: #eee;
+    border: 1px dotted #ddd;
+}
+
+button {
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+}

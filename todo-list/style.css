@@ -1,0 +1,52 @@
+@media (max-width: 768px) {
+
+    .display-5,
+    .display-3 {
+        font-size: 1.5rem;
+    }
+}
+
+body,
+html {
+    font-family: 'Montserrat', sans-serif;
+    background: #352f5b;
+}
+
+.container {
+    max-width: 600px;
+}
+
+.header-color {
+    color: #769FB6;
+}
+
+.display-5 {
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.form-check {
+    display: flex;
+    align-items: center;
+}
+
+input[type=text],
+input[type=text]:focus {
+    color: #fff;
+    border: none;
+    background: rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+}
+
+.todos li {
+    background: #423a6f;
+}
+
+.delete {
+    cursor: pointer;
+}
+
+.filtered {
+    display: none !important;
+}

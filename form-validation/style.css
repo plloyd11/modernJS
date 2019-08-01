@@ -1,5 +1,6 @@
-body, html {
-    font-family: 'Montserrat', sans-serif;
+body,
+html {
+    font-family: "Montserrat", sans-serif;
 }
 
 .form-check {
@@ -21,7 +22,7 @@ body {
 
 form {
     padding: 40px;
-    background-color: #769FB6;
+    background-color: #769fb6;
 }
 
 .success {

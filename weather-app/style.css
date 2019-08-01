@@ -1,0 +1,9 @@
+body,
+html {
+    font-family: 'Montserrat', sans-serif;
+    background: #748479;
+}
+
+.container {
+    max-width: 400px;
+}
